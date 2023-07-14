@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.header-right {
+  float: right;
+}
+img{
+  height: 5rem;
+  width: 10rem;
+}
+
+.navbar {
+  background-color:#fff;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar ul li a:hover svg path {
+  fill: orange
+}
+
+  main {
+    max-width: 960px;
+    margin: 20px auto;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 70px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
